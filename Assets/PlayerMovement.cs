@@ -81,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         //SOMETHING LIKE THIS
-        var slowDown = Input.GetKey(KeyCode.Shift);
+        var slowDown = Input.GetKey(KeyCode.LeftShift);
 
         if (slowDown)
             Time.timeScale = 0.5f;
